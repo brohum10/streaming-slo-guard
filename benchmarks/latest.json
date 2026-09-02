@@ -1,0 +1,41 @@
+{
+  "accuracy": {
+    "absolute_value_error_ms": 0.737375,
+    "checkout_observations": 16667,
+    "configured_rank_error_bound": 167,
+    "exact_p95_ms": 223.586598,
+    "observed_rank_error": 111,
+    "sketch_p95_ms": 224.323974
+  },
+  "benchmark": "synthetic-checkout-incident-v1",
+  "elapsed_seconds": 2.672163,
+  "event_count": 50000,
+  "incident_detection": {
+    "error_budget_burn_alerts": 7,
+    "expected_top_error_signature": "payment-gateway-timeout",
+    "first_checkout_change_delay_events": 3,
+    "latency_change_alerts": 1,
+    "observed_top_error_signature": "payment-gateway-timeout",
+    "pre_shift_latency_alerts": 0,
+    "top_signature_matched": true
+  },
+  "notes": [
+    "The workload is deterministic and entirely synthetic.",
+    "Timing and traced-memory values vary by machine and Python build.",
+    "Exact latency storage exists only as the benchmark accuracy reference."
+  ],
+  "peak_traced_memory_mib": 7.65,
+  "runtime": {
+    "implementation": "CPython",
+    "platform": "darwin",
+    "python": "3.14.2"
+  },
+  "seed": 7,
+  "state": {
+    "checkout_quantile_tuples": 121,
+    "processed_events": 50000,
+    "retained_alerts": 8,
+    "tracked_services": 3
+  },
+  "throughput_events_per_second": 18711.44
+}

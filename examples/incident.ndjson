@@ -1,0 +1,8 @@
+{"event_id":"req-001","timestamp":1700000000,"service":"checkout","latency_ms":82,"status_code":200}
+{"event_id":"req-002","timestamp":1700000002,"service":"checkout","latency_ms":91,"status_code":200}
+{"event_id":"req-003","timestamp":1700000001,"service":"checkout","latency_ms":87,"status_code":200}
+{"event_id":"req-004","timestamp":1700000003,"service":"catalog","latency_ms":31,"status_code":200}
+{"event_id":"req-005","timestamp":1700000004,"service":"checkout","latency_ms":410,"status_code":503,"error_signature":"payment-gateway-timeout"}
+{"event_id":"req-006","timestamp":1700000005,"service":"checkout","latency_ms":425,"status_code":503,"error_signature":"payment-gateway-timeout"}
+{"event_id":"req-007","timestamp":1700000006,"service":"checkout","latency_ms":398,"status_code":500,"error_signature":"database-pool-exhausted"}
+{"event_id":"req-008","timestamp":1700000007,"service":"catalog","latency_ms":29,"status_code":200}
